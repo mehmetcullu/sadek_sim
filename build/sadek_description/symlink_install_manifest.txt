@@ -1,0 +1,15 @@
+/home/mehmet/sadek/install/sadek_description/share/ament_index/resource_index/package_run_dependencies/sadek_description
+/home/mehmet/sadek/install/sadek_description/share/ament_index/resource_index/parent_prefix_path/sadek_description
+/home/mehmet/sadek/install/sadek_description/share/sadek_description/environment/ament_prefix_path.sh
+/home/mehmet/sadek/install/sadek_description/share/sadek_description/environment/ament_prefix_path.dsv
+/home/mehmet/sadek/install/sadek_description/share/sadek_description/environment/path.sh
+/home/mehmet/sadek/install/sadek_description/share/sadek_description/environment/path.dsv
+/home/mehmet/sadek/install/sadek_description/share/sadek_description/local_setup.bash
+/home/mehmet/sadek/install/sadek_description/share/sadek_description/local_setup.sh
+/home/mehmet/sadek/install/sadek_description/share/sadek_description/local_setup.zsh
+/home/mehmet/sadek/install/sadek_description/share/sadek_description/local_setup.dsv
+/home/mehmet/sadek/install/sadek_description/share/sadek_description/package.dsv
+/home/mehmet/sadek/install/sadek_description/share/ament_index/resource_index/packages/sadek_description
+/home/mehmet/sadek/install/sadek_description/share/sadek_description/cmake/sadek_descriptionConfig.cmake
+/home/mehmet/sadek/install/sadek_description/share/sadek_description/cmake/sadek_descriptionConfig-version.cmake
+/home/mehmet/sadek/install/sadek_description/share/sadek_description/package.xml

@@ -1,0 +1,9 @@
+/home/mehmet/sadek/build/sadek_description/CMakeFiles/uninstall.dir
+/home/mehmet/sadek/build/sadek_description/CMakeFiles/sadek_description_uninstall.dir
+/home/mehmet/sadek/build/sadek_description/CMakeFiles/test.dir
+/home/mehmet/sadek/build/sadek_description/CMakeFiles/edit_cache.dir
+/home/mehmet/sadek/build/sadek_description/CMakeFiles/rebuild_cache.dir
+/home/mehmet/sadek/build/sadek_description/CMakeFiles/list_install_components.dir
+/home/mehmet/sadek/build/sadek_description/CMakeFiles/install.dir
+/home/mehmet/sadek/build/sadek_description/CMakeFiles/install/local.dir
+/home/mehmet/sadek/build/sadek_description/CMakeFiles/install/strip.dir

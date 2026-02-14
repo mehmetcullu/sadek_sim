@@ -1,0 +1,160 @@
+running develop
+running egg_info
+creating virtual_maize_field.egg-info
+writing virtual_maize_field.egg-info/PKG-INFO
+writing dependency_links to virtual_maize_field.egg-info/dependency_links.txt
+writing entry points to virtual_maize_field.egg-info/entry_points.txt
+writing requirements to virtual_maize_field.egg-info/requires.txt
+writing top-level names to virtual_maize_field.egg-info/top_level.txt
+writing manifest file 'virtual_maize_field.egg-info/SOURCES.txt'
+reading manifest file 'virtual_maize_field.egg-info/SOURCES.txt'
+writing manifest file 'virtual_maize_field.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual-maize-field.egg-link (link to .)
+Installing generate_world script to /home/mehmet/sadek/install/virtual_maize_field/lib/virtual_maize_field
+
+Installed /home/mehmet/sadek/build/virtual_maize_field
+running symlink_data
+creating /home/mehmet/sadek/install/virtual_maize_field/share/ament_index
+creating /home/mehmet/sadek/install/virtual_maize_field/share/ament_index/resource_index
+creating /home/mehmet/sadek/install/virtual_maize_field/share/ament_index/resource_index/packages
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/resource/virtual_maize_field -> /home/mehmet/sadek/install/virtual_maize_field/share/ament_index/resource_index/packages
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/package.xml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/config/fre21_task_1.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/config/fre21_task_2.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/config/fre22_task_mapping_fast.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/config/fre22_task_mapping_mini.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/config/fre22_task_navigation_mini.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/config/fre21_task_1_fast.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/config/fre21_task_4_mini.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/config/fre21_task_1_mini.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/config/fre21_task_3_fast.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/config/fre22_task_mapping.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/config/fre22_task_navigation.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/config/fre21_task_4_fast.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/config/fre22_task_navigation_fast.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/config/fre21_task_3_mini.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/config/fre21_task_2_mini.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/config/fre21_task_3.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/config/fre21_task_4.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/config/fre21_task_2_fast.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/launch
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/launch/simulation.launch.py -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/launch
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_a
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/location_marker_a/model.config -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_a
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/location_marker_a/model.sdf -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_a
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_a/materials
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_a/materials/textures
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/location_marker_a/materials/textures/fre_logo.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_a/materials/textures
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/location_marker_a/materials/textures/location_marker_a.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_a/materials/textures
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_a/meshes
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/location_marker_a/meshes/location_marker_a.dae -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_a/meshes
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_b
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/location_marker_b/model.config -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_b
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/location_marker_b/model.sdf -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_b
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_b/materials
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_b/materials/textures
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/location_marker_b/materials/textures/fre_logo.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_b/materials/textures
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/location_marker_b/materials/textures/location_marker_b.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_b/materials/textures
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_b/meshes
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/location_marker_b/meshes/location_marker_b.dae -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_b/meshes
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/materials
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/materials/textures
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/materials/textures/dirt_diffusespecular.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/materials/textures
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/materials/textures/flat_normal.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/materials/textures
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/materials/textures/grass_displacement.jpg -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/materials/textures
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/materials/textures/grass_color.jpg -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/materials/textures
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/materials/textures/fungus_diffusespecular.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/materials/textures
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/materials/textures/grass_normal.jpg -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/materials/textures
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/materials/textures/grass_roughness.jpg -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/materials/textures
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/nettle
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/nettle/model.config -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/nettle
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/nettle/model.sdf -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/nettle
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/nettle/materials
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/nettle/materials/textures
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/nettle/materials/textures/nettle.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/nettle/materials/textures
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/nettle/meshes
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/nettle/meshes/nettle.dae -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/nettle/meshes
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_02
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/maize_02/model.config -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_02
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/maize_02/model.sdf -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_02
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_02/materials
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_02/materials/textures
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/maize_02/materials/textures/maize_02.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_02/materials/textures
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_02/meshes
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/maize_02/meshes/maize_02.dae -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_02/meshes
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/coke_can
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/coke_can/model.config -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/coke_can
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/coke_can/model.sdf -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/coke_can
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/coke_can/materials
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/coke_can/materials/textures
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/coke_can/materials/textures/coke_can.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/coke_can/materials/textures
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/coke_can/meshes
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/coke_can/meshes/coke_can.dae -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/coke_can/meshes
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_01
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/stone_01/model.config -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_01
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/stone_01/model.sdf -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_01
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_01/materials
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_01/materials/textures
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/stone_01/materials/textures/stone_01_occlusion.jpg -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_01/materials/textures
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/stone_01/materials/textures/stone_01_normal.jpg -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_01/materials/textures
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/stone_01/materials/textures/stone_01.jpg -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_01/materials/textures
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_01/meshes
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/stone_01/meshes/stone_01.dae -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_01/meshes
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_01
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/maize_01/model.config -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_01
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/maize_01/model.sdf -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_01
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_01/materials
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_01/materials/textures
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/maize_01/materials/textures/maize_01.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_01/materials/textures
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_01/meshes
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/maize_01/meshes/maize_01.dae -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_01/meshes
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/start
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/start/model.config -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/start
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/start/model.sdf -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/start
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/start/materials
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/start/materials/textures
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/start/materials/textures/arrow.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/start/materials/textures
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/retro_pepsi_can
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/retro_pepsi_can/model.config -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/retro_pepsi_can
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/retro_pepsi_can/model.sdf -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/retro_pepsi_can
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/retro_pepsi_can/materials
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/retro_pepsi_can/materials/textures
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/retro_pepsi_can/materials/textures/retro_pepsi_can.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/retro_pepsi_can/materials/textures
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/retro_pepsi_can/meshes
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/retro_pepsi_can/meshes/retro_pepsi_can.dae -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/retro_pepsi_can/meshes
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/unknown_weed
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/unknown_weed/model.config -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/unknown_weed
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/unknown_weed/model.sdf -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/unknown_weed
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/unknown_weed/materials
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/unknown_weed/materials/textures
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/unknown_weed/materials/textures/unknown_weed.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/unknown_weed/materials/textures
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/unknown_weed/meshes
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/unknown_weed/meshes/unknown_weed.dae -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/unknown_weed/meshes
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_02
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/stone_02/model.config -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_02
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/stone_02/model.sdf -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_02
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_02/materials
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_02/materials/textures
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/stone_02/materials/textures/stone_02.jpeg -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_02/materials/textures
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/stone_02/materials/textures/stone_02_normal.jpeg -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_02/materials/textures
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_02/meshes
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/stone_02/meshes/stone_02.dae -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_02/meshes
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/ale
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/ale/model.config -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/ale
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/ale/model.sdf -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/ale
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/ale/materials
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/ale/materials/textures
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/ale/materials/textures/beerbottle_blinn_baseColor.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/ale/materials/textures
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/ale/meshes
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/ale/meshes/ale.dae -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/ale/meshes
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/beer
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/beer/model.config -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/beer
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/beer/model.sdf -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/beer
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/beer/materials
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/beer/materials/textures
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/beer/materials/textures/beer.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/beer/materials/textures
+creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/beer/meshes
+symbolically linking /home/mehmet/sadek/build/virtual_maize_field/models/beer/meshes/beer.dae -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/beer/meshes

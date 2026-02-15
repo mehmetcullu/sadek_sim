@@ -1,1 +1,0 @@
-/home/mehmet/sadek/build/sadek_controller/ament_cmake_core/sadek_controllerConfig-version.cmake

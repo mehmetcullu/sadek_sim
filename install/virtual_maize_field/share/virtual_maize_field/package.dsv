@@ -1,9 +1,0 @@
-source;share/virtual_maize_field/hook/pythonpath.ps1
-source;share/virtual_maize_field/hook/pythonpath.dsv
-source;share/virtual_maize_field/hook/pythonpath.sh
-source;share/virtual_maize_field/hook/ament_prefix_path.ps1
-source;share/virtual_maize_field/hook/ament_prefix_path.dsv
-source;share/virtual_maize_field/hook/ament_prefix_path.sh
-source;../../build/virtual_maize_field/share/virtual_maize_field/hook/pythonpath_develop.ps1
-source;../../build/virtual_maize_field/share/virtual_maize_field/hook/pythonpath_develop.dsv
-source;../../build/virtual_maize_field/share/virtual_maize_field/hook/pythonpath_develop.sh

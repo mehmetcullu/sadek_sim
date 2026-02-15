@@ -1,6 +1,0 @@
-Invoking command in '/home/mehmet/sadek/build/sadek_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mehmet/sadek/src/sadek_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mehmet/sadek/install/sadek_description
-Invoked command in '/home/mehmet/sadek/build/sadek_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mehmet/sadek/src/sadek_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mehmet/sadek/install/sadek_description
-Invoking command in '/home/mehmet/sadek/build/sadek_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mehmet/sadek/build/sadek_description -- -j16 -l16
-Invoked command in '/home/mehmet/sadek/build/sadek_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mehmet/sadek/build/sadek_description -- -j16 -l16
-Invoking command in '/home/mehmet/sadek/build/sadek_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mehmet/sadek/build/sadek_description
-Invoked command in '/home/mehmet/sadek/build/sadek_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mehmet/sadek/build/sadek_description

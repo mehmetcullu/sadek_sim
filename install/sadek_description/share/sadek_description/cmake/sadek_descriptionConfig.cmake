@@ -1,1 +1,0 @@
-/home/mehmet/sadek/build/sadek_description/ament_cmake_core/sadek_descriptionConfig.cmake

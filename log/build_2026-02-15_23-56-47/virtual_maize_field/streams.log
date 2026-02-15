@@ -1,0 +1,22 @@
+[0.589s] Invoking command in '/home/mehmet/sadek/src/virtual_maize_field': PYTHONPATH=/home/mehmet/sadek/build/virtual_maize_field/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/virtual_maize_field build --build-base /home/mehmet/sadek/build/virtual_maize_field/build install --record /home/mehmet/sadek/build/virtual_maize_field/install.log --single-version-externally-managed install_data
+[0.817s] running egg_info
+[0.818s] writing ../../build/virtual_maize_field/virtual_maize_field.egg-info/PKG-INFO
+[0.818s] writing dependency_links to ../../build/virtual_maize_field/virtual_maize_field.egg-info/dependency_links.txt
+[0.818s] writing entry points to ../../build/virtual_maize_field/virtual_maize_field.egg-info/entry_points.txt
+[0.818s] writing requirements to ../../build/virtual_maize_field/virtual_maize_field.egg-info/requires.txt
+[0.818s] writing top-level names to ../../build/virtual_maize_field/virtual_maize_field.egg-info/top_level.txt
+[0.820s] reading manifest file '../../build/virtual_maize_field/virtual_maize_field.egg-info/SOURCES.txt'
+[0.821s] adding license file 'LICENSE'
+[0.822s] writing manifest file '../../build/virtual_maize_field/virtual_maize_field.egg-info/SOURCES.txt'
+[0.822s] running build
+[0.822s] running build_py
+[0.823s] running install
+[0.824s] running install_lib
+[0.825s] running install_data
+[0.827s] running install_egg_info
+[0.829s] removing '/home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field-6.0.0-py3.10.egg-info' (and everything under it)
+[0.829s] Copying ../../build/virtual_maize_field/virtual_maize_field.egg-info to /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field-6.0.0-py3.10.egg-info
+[0.830s] running install_scripts
+[0.851s] Installing generate_world script to /home/mehmet/sadek/install/virtual_maize_field/lib/virtual_maize_field
+[0.851s] writing list of installed files to '/home/mehmet/sadek/build/virtual_maize_field/install.log'
+[0.875s] Invoked command in '/home/mehmet/sadek/src/virtual_maize_field' returned '0': PYTHONPATH=/home/mehmet/sadek/build/virtual_maize_field/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/virtual_maize_field build --build-base /home/mehmet/sadek/build/virtual_maize_field/build install --record /home/mehmet/sadek/build/virtual_maize_field/install.log --single-version-externally-managed install_data

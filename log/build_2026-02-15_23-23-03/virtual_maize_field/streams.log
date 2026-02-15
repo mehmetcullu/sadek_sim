@@ -1,0 +1,217 @@
+[0.323s] Invoking command in '/home/mehmet/sadek/src/virtual_maize_field': PYTHONPATH=/home/mehmet/sadek/build/virtual_maize_field/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/virtual_maize_field build --build-base /home/mehmet/sadek/build/virtual_maize_field/build install --record /home/mehmet/sadek/build/virtual_maize_field/install.log --single-version-externally-managed install_data
+[0.443s] running egg_info
+[0.443s] creating ../../build/virtual_maize_field/virtual_maize_field.egg-info
+[0.443s] writing ../../build/virtual_maize_field/virtual_maize_field.egg-info/PKG-INFO
+[0.443s] writing dependency_links to ../../build/virtual_maize_field/virtual_maize_field.egg-info/dependency_links.txt
+[0.443s] writing entry points to ../../build/virtual_maize_field/virtual_maize_field.egg-info/entry_points.txt
+[0.443s] writing requirements to ../../build/virtual_maize_field/virtual_maize_field.egg-info/requires.txt
+[0.443s] writing top-level names to ../../build/virtual_maize_field/virtual_maize_field.egg-info/top_level.txt
+[0.443s] writing manifest file '../../build/virtual_maize_field/virtual_maize_field.egg-info/SOURCES.txt'
+[0.445s] reading manifest file '../../build/virtual_maize_field/virtual_maize_field.egg-info/SOURCES.txt'
+[0.445s] adding license file 'LICENSE'
+[0.445s] writing manifest file '../../build/virtual_maize_field/virtual_maize_field.egg-info/SOURCES.txt'
+[0.445s] running build
+[0.445s] running build_py
+[0.445s] creating /home/mehmet/sadek/build/virtual_maize_field/build
+[0.445s] creating /home/mehmet/sadek/build/virtual_maize_field/build/lib
+[0.445s] creating /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field
+[0.445s] copying virtual_maize_field/__init__.py -> /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field
+[0.445s] copying virtual_maize_field/generate_world.py -> /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field
+[0.445s] creating /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator
+[0.445s] copying virtual_maize_field/world_generator/world_description.py -> /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator
+[0.445s] copying virtual_maize_field/world_generator/models.py -> /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator
+[0.445s] copying virtual_maize_field/world_generator/__init__.py -> /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator
+[0.445s] copying virtual_maize_field/world_generator/field_2d_generator.py -> /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator
+[0.446s] copying virtual_maize_field/world_generator/utils.py -> /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator
+[0.446s] creating /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator/segments
+[0.446s] copying virtual_maize_field/world_generator/segments/island.py -> /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator/segments
+[0.446s] copying virtual_maize_field/world_generator/segments/base.py -> /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator/segments
+[0.446s] copying virtual_maize_field/world_generator/segments/straight.py -> /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator/segments
+[0.446s] copying virtual_maize_field/world_generator/segments/curve.py -> /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator/segments
+[0.446s] copying virtual_maize_field/world_generator/segments/__init__.py -> /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator/segments
+[0.446s] copying virtual_maize_field/world_generator/segments/sincurve.py -> /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator/segments
+[0.446s] copying virtual_maize_field/world_generator/field.world.template -> /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator
+[0.446s] copying virtual_maize_field/world_generator/robot_spawner.launch.py.template -> /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator
+[0.446s] running install
+[0.447s] running install_lib
+[0.447s] creating /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field
+[0.447s] creating /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator
+[0.447s] copying /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator/field.world.template -> /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator
+[0.447s] creating /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator/segments
+[0.447s] copying /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator/segments/island.py -> /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator/segments
+[0.447s] copying /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator/segments/base.py -> /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator/segments
+[0.447s] copying /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator/segments/straight.py -> /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator/segments
+[0.447s] copying /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator/segments/curve.py -> /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator/segments
+[0.447s] copying /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator/segments/__init__.py -> /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator/segments
+[0.447s] copying /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator/segments/sincurve.py -> /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator/segments
+[0.447s] copying /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator/world_description.py -> /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator
+[0.447s] copying /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator/models.py -> /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator
+[0.447s] copying /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator/__init__.py -> /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator
+[0.448s] copying /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator/robot_spawner.launch.py.template -> /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator
+[0.448s] copying /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator/field_2d_generator.py -> /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator
+[0.448s] copying /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator/utils.py -> /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator
+[0.448s] copying /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/__init__.py -> /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field
+[0.448s] copying /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/generate_world.py -> /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field
+[0.448s] byte-compiling /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator/segments/island.py to island.cpython-310.pyc
+[0.449s] byte-compiling /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator/segments/base.py to base.cpython-310.pyc
+[0.449s] byte-compiling /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator/segments/straight.py to straight.cpython-310.pyc
+[0.449s] byte-compiling /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator/segments/curve.py to curve.cpython-310.pyc
+[0.450s] byte-compiling /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator/segments/__init__.py to __init__.cpython-310.pyc
+[0.450s] byte-compiling /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator/segments/sincurve.py to sincurve.cpython-310.pyc
+[0.450s] byte-compiling /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator/world_description.py to world_description.cpython-310.pyc
+[0.451s] byte-compiling /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator/models.py to models.cpython-310.pyc
+[0.452s] byte-compiling /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator/__init__.py to __init__.cpython-310.pyc
+[0.452s] byte-compiling /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator/field_2d_generator.py to field_2d_generator.cpython-310.pyc
+[0.454s] byte-compiling /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator/utils.py to utils.cpython-310.pyc
+[0.454s] byte-compiling /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/__init__.py to __init__.cpython-310.pyc
+[0.454s] byte-compiling /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/generate_world.py to generate_world.cpython-310.pyc
+[0.455s] running install_data
+[0.455s] creating /home/mehmet/sadek/install/virtual_maize_field/share/ament_index
+[0.455s] creating /home/mehmet/sadek/install/virtual_maize_field/share/ament_index/resource_index
+[0.455s] creating /home/mehmet/sadek/install/virtual_maize_field/share/ament_index/resource_index/packages
+[0.455s] copying resource/virtual_maize_field -> /home/mehmet/sadek/install/virtual_maize_field/share/ament_index/resource_index/packages
+[0.455s] copying package.xml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field
+[0.455s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+[0.455s] copying config/fre21_task_1.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+[0.455s] copying config/fre21_task_2.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+[0.455s] copying config/fre22_task_mapping_fast.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+[0.455s] copying config/fre22_task_mapping_mini.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+[0.455s] copying config/fre22_task_navigation_mini.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+[0.455s] copying config/fre21_task_1_fast.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+[0.455s] copying config/fre21_task_4_mini.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+[0.455s] copying config/fre21_task_1_mini.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+[0.455s] copying config/fre21_task_3_fast.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+[0.455s] copying config/fre22_task_mapping.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+[0.455s] copying config/fre22_task_navigation.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+[0.455s] copying config/fre21_task_4_fast.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+[0.455s] copying config/fre22_task_navigation_fast.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+[0.455s] copying config/fre21_task_3_mini.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+[0.455s] copying config/fre21_task_2_mini.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+[0.455s] copying config/fre21_task_3.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+[0.455s] copying config/fre21_task_4.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+[0.455s] copying config/fre21_task_2_fast.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+[0.455s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/launch
+[0.456s] copying launch/simulation.launch.py -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/launch
+[0.456s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models
+[0.456s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_a
+[0.456s] copying models/location_marker_a/model.config -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_a
+[0.456s] copying models/location_marker_a/model.sdf -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_a
+[0.456s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_a/materials
+[0.456s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_a/materials/textures
+[0.456s] copying models/location_marker_a/materials/textures/fre_logo.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_a/materials/textures
+[0.456s] copying models/location_marker_a/materials/textures/location_marker_a.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_a/materials/textures
+[0.456s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_a/meshes
+[0.456s] copying models/location_marker_a/meshes/location_marker_a.dae -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_a/meshes
+[0.456s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_b
+[0.456s] copying models/location_marker_b/model.config -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_b
+[0.456s] copying models/location_marker_b/model.sdf -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_b
+[0.456s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_b/materials
+[0.456s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_b/materials/textures
+[0.456s] copying models/location_marker_b/materials/textures/fre_logo.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_b/materials/textures
+[0.456s] copying models/location_marker_b/materials/textures/location_marker_b.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_b/materials/textures
+[0.456s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_b/meshes
+[0.456s] copying models/location_marker_b/meshes/location_marker_b.dae -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/location_marker_b/meshes
+[0.456s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/materials
+[0.456s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/materials/textures
+[0.456s] copying models/materials/textures/dirt_diffusespecular.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/materials/textures
+[0.457s] copying models/materials/textures/flat_normal.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/materials/textures
+[0.457s] copying models/materials/textures/grass_displacement.jpg -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/materials/textures
+[0.458s] copying models/materials/textures/grass_color.jpg -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/materials/textures
+[0.460s] copying models/materials/textures/fungus_diffusespecular.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/materials/textures
+[0.461s] copying models/materials/textures/grass_normal.jpg -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/materials/textures
+[0.464s] copying models/materials/textures/grass_roughness.jpg -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/materials/textures
+[0.465s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/nettle
+[0.465s] copying models/nettle/model.config -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/nettle
+[0.465s] copying models/nettle/model.sdf -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/nettle
+[0.465s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/nettle/materials
+[0.465s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/nettle/materials/textures
+[0.465s] copying models/nettle/materials/textures/nettle.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/nettle/materials/textures
+[0.466s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/nettle/meshes
+[0.466s] copying models/nettle/meshes/nettle.dae -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/nettle/meshes
+[0.466s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_02
+[0.466s] copying models/maize_02/model.config -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_02
+[0.466s] copying models/maize_02/model.sdf -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_02
+[0.466s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_02/materials
+[0.466s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_02/materials/textures
+[0.466s] copying models/maize_02/materials/textures/maize_02.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_02/materials/textures
+[0.466s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_02/meshes
+[0.466s] copying models/maize_02/meshes/maize_02.dae -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_02/meshes
+[0.466s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/coke_can
+[0.466s] copying models/coke_can/model.config -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/coke_can
+[0.466s] copying models/coke_can/model.sdf -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/coke_can
+[0.466s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/coke_can/materials
+[0.466s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/coke_can/materials/textures
+[0.466s] copying models/coke_can/materials/textures/coke_can.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/coke_can/materials/textures
+[0.467s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/coke_can/meshes
+[0.467s] copying models/coke_can/meshes/coke_can.dae -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/coke_can/meshes
+[0.467s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_01
+[0.467s] copying models/stone_01/model.config -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_01
+[0.467s] copying models/stone_01/model.sdf -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_01
+[0.467s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_01/materials
+[0.467s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_01/materials/textures
+[0.467s] copying models/stone_01/materials/textures/stone_01_occlusion.jpg -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_01/materials/textures
+[0.468s] copying models/stone_01/materials/textures/stone_01_normal.jpg -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_01/materials/textures
+[0.470s] copying models/stone_01/materials/textures/stone_01.jpg -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_01/materials/textures
+[0.472s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_01/meshes
+[0.472s] copying models/stone_01/meshes/stone_01.dae -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_01/meshes
+[0.472s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_01
+[0.472s] copying models/maize_01/model.config -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_01
+[0.472s] copying models/maize_01/model.sdf -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_01
+[0.472s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_01/materials
+[0.472s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_01/materials/textures
+[0.472s] copying models/maize_01/materials/textures/maize_01.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_01/materials/textures
+[0.472s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_01/meshes
+[0.472s] copying models/maize_01/meshes/maize_01.dae -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/maize_01/meshes
+[0.472s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/start
+[0.473s] copying models/start/model.config -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/start
+[0.473s] copying models/start/model.sdf -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/start
+[0.473s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/start/materials
+[0.473s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/start/materials/textures
+[0.473s] copying models/start/materials/textures/arrow.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/start/materials/textures
+[0.473s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/retro_pepsi_can
+[0.473s] copying models/retro_pepsi_can/model.config -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/retro_pepsi_can
+[0.473s] copying models/retro_pepsi_can/model.sdf -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/retro_pepsi_can
+[0.473s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/retro_pepsi_can/materials
+[0.473s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/retro_pepsi_can/materials/textures
+[0.473s] copying models/retro_pepsi_can/materials/textures/retro_pepsi_can.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/retro_pepsi_can/materials/textures
+[0.474s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/retro_pepsi_can/meshes
+[0.474s] copying models/retro_pepsi_can/meshes/retro_pepsi_can.dae -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/retro_pepsi_can/meshes
+[0.474s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/unknown_weed
+[0.474s] copying models/unknown_weed/model.config -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/unknown_weed
+[0.474s] copying models/unknown_weed/model.sdf -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/unknown_weed
+[0.474s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/unknown_weed/materials
+[0.475s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/unknown_weed/materials/textures
+[0.475s] copying models/unknown_weed/materials/textures/unknown_weed.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/unknown_weed/materials/textures
+[0.475s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/unknown_weed/meshes
+[0.475s] copying models/unknown_weed/meshes/unknown_weed.dae -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/unknown_weed/meshes
+[0.475s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_02
+[0.475s] copying models/stone_02/model.config -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_02
+[0.475s] copying models/stone_02/model.sdf -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_02
+[0.475s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_02/materials
+[0.475s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_02/materials/textures
+[0.475s] copying models/stone_02/materials/textures/stone_02.jpeg -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_02/materials/textures
+[0.475s] copying models/stone_02/materials/textures/stone_02_normal.jpeg -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_02/materials/textures
+[0.476s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_02/meshes
+[0.476s] copying models/stone_02/meshes/stone_02.dae -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/stone_02/meshes
+[0.476s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/ale
+[0.476s] copying models/ale/model.config -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/ale
+[0.476s] copying models/ale/model.sdf -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/ale
+[0.476s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/ale/materials
+[0.476s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/ale/materials/textures
+[0.476s] copying models/ale/materials/textures/beerbottle_blinn_baseColor.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/ale/materials/textures
+[0.477s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/ale/meshes
+[0.477s] copying models/ale/meshes/ale.dae -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/ale/meshes
+[0.477s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/beer
+[0.477s] copying models/beer/model.config -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/beer
+[0.477s] copying models/beer/model.sdf -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/beer
+[0.477s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/beer/materials
+[0.477s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/beer/materials/textures
+[0.477s] copying models/beer/materials/textures/beer.png -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/beer/materials/textures
+[0.478s] creating /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/beer/meshes
+[0.478s] copying models/beer/meshes/beer.dae -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/beer/meshes
+[0.478s] running install_egg_info
+[0.479s] Copying ../../build/virtual_maize_field/virtual_maize_field.egg-info to /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field-6.0.0-py3.10.egg-info
+[0.480s] running install_scripts
+[0.491s] Installing generate_world script to /home/mehmet/sadek/install/virtual_maize_field/lib/virtual_maize_field
+[0.491s] writing list of installed files to '/home/mehmet/sadek/build/virtual_maize_field/install.log'
+[0.504s] Invoked command in '/home/mehmet/sadek/src/virtual_maize_field' returned '0': PYTHONPATH=/home/mehmet/sadek/build/virtual_maize_field/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/virtual_maize_field build --build-base /home/mehmet/sadek/build/virtual_maize_field/build install --record /home/mehmet/sadek/build/virtual_maize_field/install.log --single-version-externally-managed install_data

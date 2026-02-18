@@ -85,6 +85,8 @@ def generate_launch_description() -> LaunchDescription:
         headless,
         verbose,
     )
+    # generate_launch_description içinde kullanımı:
+    # add_scaled_models_to_launch(ld, models_path)
 
     environment = AppendEnvironmentVariable(
         "GZ_SIM_RESOURCE_PATH",
@@ -116,7 +118,7 @@ def generate_launch_description() -> LaunchDescription:
 
     ld = LaunchDescription()
 
-    # Declare the launch options
+
     ld.add_action(declare_use_sim_time_cmd)
     ld.add_action(declare_paused_cmd)
     ld.add_action(declare_headless_cmd)

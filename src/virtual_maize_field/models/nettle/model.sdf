@@ -63,6 +63,7 @@
         <geometry>
           <mesh>
             <uri>model://nettle/meshes/nettle.dae</uri>
+            <scale>${bitki_olcegi}</scale>
           </mesh>
         </geometry>
       </visual>

@@ -9,6 +9,15 @@ weeds: 5
 ghost_objects: true
 ground_resolution: 0.1
 location_markers: true
-weed_types: 
-  - nettle
-  - unknown_weed
+weed_types:
+  nettle:
+    size:
+      max: 10
+      min: 2
+    oran: 70
+  weed1:
+
+  weed2:
+
+  weed3:
+  

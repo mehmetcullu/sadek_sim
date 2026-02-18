@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/virtual_maize_field/virtual_maize_field.egg-info/PKG-INFO
+writing dependency_links to ../../build/virtual_maize_field/virtual_maize_field.egg-info/dependency_links.txt
+writing entry points to ../../build/virtual_maize_field/virtual_maize_field.egg-info/entry_points.txt
+writing requirements to ../../build/virtual_maize_field/virtual_maize_field.egg-info/requires.txt
+writing top-level names to ../../build/virtual_maize_field/virtual_maize_field.egg-info/top_level.txt
+reading manifest file '../../build/virtual_maize_field/virtual_maize_field.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/virtual_maize_field/virtual_maize_field.egg-info/SOURCES.txt'
+running build
+running build_py
+copying virtual_maize_field/world_generator/world_description.py -> /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator
+running install
+running install_lib
+copying /home/mehmet/sadek/build/virtual_maize_field/build/lib/virtual_maize_field/world_generator/world_description.py -> /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator
+byte-compiling /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field/world_generator/world_description.py to world_description.cpython-310.pyc
+running install_data
+copying package.xml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field
+copying config/fre21_task_3_mini.yaml -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/config
+copying launch/simulation.launch.py -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/launch
+copying models/nettle/model.sdf -> /home/mehmet/sadek/install/virtual_maize_field/share/virtual_maize_field/models/nettle
+running install_egg_info
+removing '/home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field-6.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/virtual_maize_field/virtual_maize_field.egg-info to /home/mehmet/sadek/install/virtual_maize_field/lib/python3.10/site-packages/virtual_maize_field-6.0.0-py3.10.egg-info
+running install_scripts
+Installing generate_world script to /home/mehmet/sadek/install/virtual_maize_field/lib/virtual_maize_field
+writing list of installed files to '/home/mehmet/sadek/build/virtual_maize_field/install.log'

@@ -1,0 +1,27 @@
+services:
+  gazebo-harmonic:
+    build:
+      context: .
+      dockerfile: docker/harmonic/Dockerfile
+    image: sadek_sim:harmonic-local
+    container_name: sadek_sim_harmonic
+    working_dir: /ws
+    user: "${LOCAL_UID:-1000}:${LOCAL_GID:-1000}"
+    stdin_open: true
+    tty: true
+    network_mode: host
+    ipc: host
+    environment:
+      DISPLAY: ${DISPLAY:-}
+      XAUTHORITY: /tmp/.Xauthority
+      QT_X11_NO_MITSHM: "1"
+      ROS_HOME: /ws/.ros
+      HOME: /ws
+      MPLCONFIGDIR: /ws/.cache/matplotlib
+      GZ_SIM_RESOURCE_PATH: /ws/src/virtual_maize_field/models
+    volumes:
+      - ./:/ws
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - ${XAUTHORITY:-$HOME/.Xauthority}:/tmp/.Xauthority:ro
+      - /etc/passwd:/etc/passwd:ro
+      - /etc/group:/etc/group:ro

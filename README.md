@@ -218,3 +218,55 @@ def read_markers_file() -> None:
 | Name | Path | Copyright | License |
 |:---- |:---- |:--------- |:------- |
 | [grass](https://cc0textures.com/view?id=Ground003) | [`Media/models/materials/textures/`](Media/models/materials/textures/) | 2018 *CC0Textures.com* | [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/) |
+
+## Docker (Gazebo Harmonic + ROS Humble + ros_gz)
+
+This repository includes a container setup based on:
+`ghcr.io/j-rivero/gazebo:harmonic-full`
+
+The image is extended with ROS 2 Humble and `ros_gz` packages.
+
+> Note: use `LOCAL_UID` / `LOCAL_GID` (not `UID`), because `UID` is readonly in bash.
+
+### 1) Build image
+
+```bash
+LOCAL_UID=$(id -u) LOCAL_GID=$(id -g) docker compose -f docker-compose.harmonic.yml build
+```
+
+### 2) Allow local X11 (GUI only)
+
+```bash
+xhost +local:docker
+```
+
+### 3) Enter bash in container
+
+```bash
+LOCAL_UID=$(id -u) LOCAL_GID=$(id -g) docker compose -f docker-compose.harmonic.yml run --rm gazebo-harmonic bash
+```
+
+### 4) Build and run from inside the container
+
+Inside container:
+
+```bash
+cd /ws
+source /opt/ros/humble/setup.bash
+
+colcon --log-base /ws/log_harmonic build --symlink-install \
+  --build-base /ws/build_harmonic \
+  --install-base /ws/install_harmonic
+source install_harmonic/setup.bash
+
+ros2 run virtual_maize_field generate_world fre22_task_navigation_mini
+ros2 launch virtual_maize_field simulation.launch.py
+```
+
+Headless launch:
+
+```bash
+ros2 launch virtual_maize_field simulation.launch.py headless:=True
+```
+
+Generated files are written to `./.ros/virtual_maize_field` in this repository.

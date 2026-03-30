@@ -5,10 +5,10 @@ from dataclasses import dataclass, fields
 from pathlib import Path
 from xml.etree import ElementTree
 
-from ament_index_python import get_package_share_directory
+from virtual_maize_field.package_paths import get_package_share_path
 
 VIRTUAL_MAIZE_FIELD_MODELS_FOLDER = (
-    Path(get_package_share_directory("virtual_maize_field")) / "models"
+    get_package_share_path("virtual_maize_field") / "models"
 )
 
 

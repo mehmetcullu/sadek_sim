@@ -1,6 +1,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/ros,ros2,python,c++
 # Edit at https://www.toptal.com/developers/gitignore?templates=ros,ros2,python,c++
 
+build_harmonic/
+install_harmonic/
+log_harmonic/
+
 ### C++ ###
 # Prerequisites
 *.d
@@ -260,6 +264,7 @@ CATKIN_IGNORE
 ### ROS2 ###
 install/
 log/
+.ros/
 
 # Ignore generated docs
 

@@ -9,10 +9,10 @@ from shutil import rmtree
 
 import cv2
 import yaml
-from ament_index_python.packages import get_package_share_directory
 from jinja2 import Template
 
 from virtual_maize_field import world_generator
+from virtual_maize_field.package_paths import get_package_share_path
 from virtual_maize_field.world_generator.field_2d_generator import Field2DGenerator
 from virtual_maize_field.world_generator.world_description import WorldDescription
 
@@ -22,7 +22,7 @@ class WorldGenerator:
         self.wd = WorldDescription(**kwargs)
 
         self.fgen = Field2DGenerator(self.wd)
-        self.pkg_path = Path(get_package_share_directory("virtual_maize_field"))
+        self.pkg_path = get_package_share_path("virtual_maize_field")
         _ros_home_path = environ.get("ROS_HOME", str(Path.home() / ".ros"))
         self.cache_folder = Path(_ros_home_path) / "virtual_maize_field"
         self.cache_folder.mkdir(parents=True, exist_ok=True)
@@ -153,7 +153,7 @@ class WorldGenerator:
 def main() -> None:
     from virtual_maize_field.world_generator.utils import parser_from_function
 
-    pkg_path = Path(get_package_share_directory("virtual_maize_field"))
+    pkg_path = get_package_share_path("virtual_maize_field")
 
     parser = parser_from_function(
         WorldDescription.__init__,

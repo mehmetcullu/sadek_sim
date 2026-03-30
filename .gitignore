@@ -6,6 +6,7 @@ install_harmonic/
 log_harmonic/
 .codex
 .ignition
+.sdformat
 
 ### C++ ###
 # Prerequisites

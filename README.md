@@ -270,3 +270,50 @@ ros2 launch virtual_maize_field simulation.launch.py headless:=True
 ```
 
 Generated files are written to `./.ros/virtual_maize_field` in this repository.
+
+### Troubleshooting (GL / texture / drawable errors)
+
+If you see errors like:
+- `libGL error: failed to load driver: nouveau`
+- `failed to create drawable`
+
+then this is usually GPU/OpenGL passthrough, not world texture files.
+
+1. Make sure X11 access is enabled:
+```bash
+xhost +local:docker
+```
+
+2. Make sure `/dev/dri` exists on host:
+```bash
+ls -la /dev/dri
+```
+
+3. If you use NVIDIA + nvidia-container-toolkit, run container with GPU access.
+If your `docker compose run` does not support `--gpus`, use `docker run` directly:
+```bash
+docker run --rm -it \
+  --gpus all \
+  --network host \
+  --ipc host \
+  --user "$(id -u):$(id -g)" \
+  -e DISPLAY="$DISPLAY" \
+  -e XAUTHORITY=/tmp/.Xauthority \
+  -e QT_X11_NO_MITSHM=1 \
+  -e ROS_HOME=/ws/.ros \
+  -e HOME=/ws \
+  -e MPLCONFIGDIR=/ws/.cache/matplotlib \
+  -e GZ_SIM_RESOURCE_PATH=/ws/src/virtual_maize_field/models \
+  -v "$PWD":/ws \
+  -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
+  -v "${XAUTHORITY:-$HOME/.Xauthority}:/tmp/.Xauthority:ro" \
+  -v /etc/passwd:/etc/passwd:ro \
+  -v /etc/group:/etc/group:ro \
+  -v /dev/dri:/dev/dri \
+  sadek_sim:harmonic-local bash
+```
+
+4. If GUI still fails, run headless:
+```bash
+ros2 launch virtual_maize_field simulation.launch.py headless:=True
+```

@@ -9,3 +9,5 @@ row_segment_sincurved_length_max: 5.0
 hole_prob: [0.08, 0.08, 0.05, 0.02, 0.0, 0.0]
 hole_size_max: [8, 8, 6, 4, 0, 0]
 ground_resolution: 0.1
+ground_elevation_max: 0.6
+ground_ditch_depth: 0.45

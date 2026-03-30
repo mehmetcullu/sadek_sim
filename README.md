@@ -263,6 +263,11 @@ ros2 run virtual_maize_field generate_world fre22_task_navigation_mini
 ros2 launch virtual_maize_field simulation.launch.py
 ```
 
+Notes:
+
+- If you change files under `src/virtual_maize_field/config` or `src/virtual_maize_field/models`, rerun `ros2 run virtual_maize_field generate_world ...`. A rebuild is not required for those asset/config changes.
+- If you change Python package code under `src/virtual_maize_field/virtual_maize_field`, rerun the `colcon build` command before launching again.
+
 Headless launch:
 
 ```bash

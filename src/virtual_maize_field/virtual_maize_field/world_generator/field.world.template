@@ -55,24 +55,19 @@
             <heightmap>
               <use_terrain_paging>false</use_terrain_paging>
               <texture>
-                <diffuse>model://materials/textures/grass_color.jpg</diffuse>
-                <normal>model://materials/textures/grass_normal.jpg</normal>
+                <diffuse>{{ heightmap.texture_dir_uri }}/grass_color.jpg</diffuse>
+                <normal>{{ heightmap.texture_dir_uri }}/grass_normal.jpg</normal>
                 <size>4</size>
               </texture>
               <texture>
-                <diffuse>model://materials/textures/dirt_diffusespecular.png</diffuse>
-                <normal>model://materials/textures/flat_normal.png</normal>
+                <diffuse>{{ heightmap.texture_dir_uri }}/dirt_diffusespecular.png</diffuse>
+                <normal>{{ heightmap.texture_dir_uri }}/flat_normal.png</normal>
                 <size>1</size>
               </texture>
-              <!-- <texture>
-                <diffuse>model://materials/textures/grass_color.jpg</diffuse>
-                <normal>model://materials/textures/grass_normal.jpg</normal>
-                <size>4</size>
-              </texture> -->
               <!-- Without this unused 3. texture the blend between the first 2 doesn"t work -->
               <texture>
-                <diffuse>model://materials/textures/fungus_diffusespecular.png</diffuse>
-                <normal>model://materials/textures/flat_normal.png</normal>
+                <diffuse>{{ heightmap.texture_dir_uri }}/fungus_diffusespecular.png</diffuse>
+                <normal>{{ heightmap.texture_dir_uri }}/flat_normal.png</normal>
                 <size>1</size>
               </texture>
               <blend>

@@ -9,6 +9,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 from shapely.geometry import LineString, Point, Polygon
 
+from virtual_maize_field.package_paths import get_package_share_path
 from virtual_maize_field.world_generator.models import (
     CROP_MODELS,
     LITTER_MODELS,
@@ -463,6 +464,47 @@ class Field2DGenerator:
         def metric_to_pixel(pos: int) -> int:
             return int(pos // self.resolution) + offset
 
+        # Shape the terrain so crop rows read as raised beds and the space
+        # between them reads as a traversable lane.
+        row_profile_mask = np.zeros((image_size, image_size), dtype=np.float32)
+        row_line_thickness = max(1, int(round((self.wd.row_width * 0.25) / self.resolution)))
+        row_blur_size = max(
+            3,
+            ((int(round((self.wd.row_width * 0.75) / self.resolution)) // 2) * 2) + 1,
+        )
+
+        for row in self.rows:
+            pixel_row = np.array(
+                [(metric_to_pixel(x), metric_to_pixel(y)) for x, y in row],
+                dtype=np.int32,
+            )
+            if pixel_row.shape[0] == 0:
+                continue
+            if pixel_row.shape[0] == 1:
+                row_profile_mask = cv2.circle(
+                    row_profile_mask,
+                    tuple(pixel_row[0]),
+                    row_line_thickness,
+                    1.0,
+                    -1,
+                )
+                continue
+
+            cv2.polylines(
+                row_profile_mask,
+                [pixel_row],
+                False,
+                1.0,
+                thickness=row_line_thickness,
+                lineType=cv2.LINE_AA,
+            )
+
+        row_profile_mask = cv2.GaussianBlur(
+            row_profile_mask, (row_blur_size, row_blur_size), 0
+        )
+        if row_profile_mask.max() > 0:
+            row_profile_mask /= row_profile_mask.max()
+
         # Make plant placements flat and save the heights for the sdf renderer
         PLANT_FOOTPRINT = (2 * 0.02**2) ** 0.5
         flatspot_radius = int((PLANT_FOOTPRINT / 2) // self.resolution) + 2
@@ -491,6 +533,17 @@ class Field2DGenerator:
         field_mask = cv2.GaussianBlur(field_mask, (blur_size, blur_size), 0)
 
         heightmap += field_height * field_mask
+        row_profile_mask *= field_mask
+
+        row_ridge_height = min(0.15, max(0.06, max_elevation * 0.35))
+        lane_depth = row_ridge_height * 0.75
+        heightmap += (row_ridge_height / self.heightmap_elevation) * row_profile_mask
+        heightmap -= (
+            (lane_depth / self.heightmap_elevation)
+            * field_mask
+            * (1 - row_profile_mask)
+        )
+        heightmap = np.clip(heightmap, 0, 1)
 
         assert heightmap.max() <= 1
         assert heightmap.min() >= 0
@@ -594,6 +647,9 @@ class Field2DGenerator:
 
         template = importlib.resources.read_text(__package__, "field.world.template")
         template = jinja2.Template(template)
+        texture_dir = (
+            get_package_share_path("virtual_maize_field") / "models" / "materials" / "textures"
+        )
         self.sdf = template.render(
             coordinates=coordinates,
             seed=self.wd.structure["params"]["seed"],
@@ -607,5 +663,6 @@ class Field2DGenerator:
                 "ditch_depth": self.wd.structure["params"]["ground_ditch_depth"],
                 "total_height": self.heightmap_elevation,
                 "cache_dir": cache_dir,
+                "texture_dir_uri": f"file://{texture_dir.as_posix()}",
             },
         )

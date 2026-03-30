@@ -165,6 +165,12 @@ You can use these config files when generating worlds, e.g.:
 ros2 run virtual_maize_field generate_world fre22_task_navigation_mini
 ```
 
+Terrain profile can be tuned from YAML or CLI with:
+
+- `ground_row_profile_width`: width of the curved row-shaped ground profile in meters
+- `ground_row_ridge_height`: raised bed height under crop rows in meters
+- `ground_row_lane_depth`: lane/furrow depth between rows in meters
+
 ## Launching and using generated worlds
 The launch file to launch the worlds is called `simulation.launch`. You can launch the launch file by running `ros2 launch virtual_maize_field simulation.launch.py`. By default the launch file will launch `generated_world.world`. You can launch any world by using the `world_name` arg. e.g. `ros2 launch virtual_maize_field simulation.launch.py world_name:=simple_row_level_1.world`. The generated world will be saved in `$ROS_HOME/virtual_maize_field` (usually, this will be `~/.ros/virtual_maize_field`).
 

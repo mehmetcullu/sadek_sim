@@ -451,6 +451,9 @@ class Field2DGenerator:
         heightmap /= heightmap.max()
 
         max_elevation = self.wd.structure["params"]["ground_elevation_max"]
+        row_profile_width = self.wd.structure["params"]["ground_row_profile_width"]
+        row_ridge_height = self.wd.structure["params"]["ground_row_ridge_height"]
+        lane_depth = self.wd.structure["params"]["ground_row_lane_depth"]
 
         self.heightmap_elevation = ditch_depth + (max_elevation / 2)
 
@@ -467,10 +470,10 @@ class Field2DGenerator:
         # Shape the terrain so crop rows read as raised beds and the space
         # between them reads as a traversable lane.
         row_profile_mask = np.zeros((image_size, image_size), dtype=np.float32)
-        row_line_thickness = max(1, int(round((self.wd.row_width * 0.25) / self.resolution)))
+        row_line_thickness = max(1, int(round((row_profile_width * 0.35) / self.resolution)))
         row_blur_size = max(
             3,
-            ((int(round((self.wd.row_width * 0.75) / self.resolution)) // 2) * 2) + 1,
+            ((int(round((row_profile_width) / self.resolution)) // 2) * 2) + 1,
         )
 
         for row in self.rows:
@@ -535,8 +538,6 @@ class Field2DGenerator:
         heightmap += field_height * field_mask
         row_profile_mask *= field_mask
 
-        row_ridge_height = min(0.15, max(0.06, max_elevation * 0.35))
-        lane_depth = row_ridge_height * 0.75
         heightmap += (row_ridge_height / self.heightmap_elevation) * row_profile_mask
         heightmap -= (
             (lane_depth / self.heightmap_elevation)

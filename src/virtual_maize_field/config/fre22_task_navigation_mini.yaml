@@ -11,3 +11,6 @@ hole_size_max: [8, 8, 6, 4, 0, 0]
 ground_resolution: 0.1
 ground_elevation_max: 0.6
 ground_ditch_depth: 0.45
+ground_row_profile_width: 0.6
+ground_row_ridge_height: 0.22
+ground_row_lane_depth: 0.18

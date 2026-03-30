@@ -4,6 +4,8 @@
 build_harmonic/
 install_harmonic/
 log_harmonic/
+.codex
+.ignition
 
 ### C++ ###
 # Prerequisites
